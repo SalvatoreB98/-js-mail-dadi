@@ -56,7 +56,13 @@ section.dadi{
     max-width: 350px;
     min-width: 100px;
     transform: scale(0);
-    animation: entry 1s ease-in-out 0.1s forwards;
+    animation: entry 1s ease-in-out forwards;
+}
+.animation{
+    animation: entry 1s ease-in-out forwards;
+}
+.delay-animation{
+    animation: entry 1s 0.7s ease-in-out forwards;
 }
 .btn-container{
     margin-top: 50px;

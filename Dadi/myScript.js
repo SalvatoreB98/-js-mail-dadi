@@ -8,9 +8,9 @@ var vincitore;
 dadoUtente= Math.floor(Math.random()*6+1);
 dadoPC= Math.floor(Math.random()*6+1);
 console.log("Il dado dell'utente e' " + dadoUtente);
-document.getElementById("dado-utente").innerHTML = '<img src="img/'+dadoUtente+'.svg" alt="">'
+document.getElementById("dado-utente").innerHTML = '<img src="img/'+dadoUtente+'.svg" class="animation"  alt="">'
 console.log("Il dado del PC e' " + dadoPC);
-document.getElementById("dado-pc").innerHTML = '<img src="img/'+dadoPC+'.svg" alt="">';
+document.getElementById("dado-pc").innerHTML = '<img src="img/'+dadoPC+'.svg" class="delay-animation" alt="">';
 
 // CONTROLLA CHI HA VINTO CON IL NUMERO MAGGIORE
 if(dadoUtente > dadoPC){
