@@ -1,5 +1,4 @@
-/* dichiarazioni variabili*/
-
+// EMAIL
 var emailConsentite = ["salvatore.butera@gmail.com" ,"florian.leica@gmail.com", "flavio.cordari@gmail.com", "francesco.elia@gmail.com", "pinco", "pallino","admin"];
 
 var emailUtente;
