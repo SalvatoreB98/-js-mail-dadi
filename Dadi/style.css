@@ -38,6 +38,7 @@ nav h1{
 }
 h2{
     font-size: 2vw;
+    margin-bottom: 25px;
 }
 section.dadi{
     display: flex;
@@ -50,8 +51,12 @@ section.dadi{
 }
 .dado-container img{
     padding: 25px;
-    filter: drop-shadow();
+    filter: drop-shadow(30px 10px 20px #000000);
     width: 100%;
+    max-width: 350px;
+    min-width: 100px;
+    transform: scale(0);
+    animation: entry 1s ease-in-out 0.1s forwards;
 }
 .btn-container{
     margin-top: 50px;
@@ -63,4 +68,17 @@ section.dadi{
 }
 .text-center{
     text-align: center;
+}
+
+@keyframes entry {
+    0%{
+        transform: scale(0) rotate(0);
+    
+    }
+    80%{
+        transform: scale(1.1) rotate(370deg);
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+    }
 }
