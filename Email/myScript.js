@@ -16,9 +16,11 @@ for(var i=0 ;  i<emailConsentite.length-1 ;  i++){
     if( emailUtente == emailConsentite[i] ){
         isValid=true;
         console.log("email valida");
+        document.getElementById("login-status").innerHTML = "LOGIN AVVENUTO CON SUCCESSO";
     }
 }
 
 if(isValid==false){
     console.log("Impossibile accedere, e-mail errata");
+    document.getElementById("login-status").innerHTML = "EMAIL ERRATA";
 }

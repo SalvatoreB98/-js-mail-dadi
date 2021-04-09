@@ -1,17 +1,38 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.wrap{
     max-width: 1000px;
     width: 90%;
     margin: auto;
+}
+.container{
     margin-top: 25px;
-    background-color: rgb(233, 233, 233);
+    margin-bottom: 25px;
+    background-color: rgba(233, 233, 233, 0.185);
     padding: 25px;
-    text-align: center;
-    border-radius: 20px;
-    border: 1px solid rgb(138, 138, 138);
+    border: 1px solid rgba(138, 138, 138, 0.548);
 }
 h1{
-
+    font-size: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.ricarica{
+    padding: 10px;
+    background-color: orange;
+}
+.ricarica:hover{
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.109);
+}
+.margin-top{
+    margin-top: 50px;
 }
