@@ -12,7 +12,7 @@ var isValid=false;
 emailUtente = prompt("inserire la mail consenita");
 
 // CONTROLLA PER TUTTI GLI INDICI SE LA MAIL E' UGUALE A QUALLA INSERITA DALL'UTENTE
-for(var i=0 ;  i<emailConsentite.length-1 ;  i++){
+for(var i=0 ;  i<emailConsentite.length ;  i++){
     if( emailUtente == emailConsentite[i] ){
         isValid=true;
         console.log("email valida");
