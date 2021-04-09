@@ -27,16 +27,16 @@ if(isValid==false){
 
 /* GIOCO DEI DADI */
 if(isValid==true){
-    dadoUtente= Math.floor(Math.random()*7);
-    dadoPC= Math.floor(Math.random()*7);
+    dadoUtente= Math.floor(Math.random()*7+1);
+    dadoPC= Math.floor(Math.random()*7+1.1);
     console.log("Il dado dell'utente e' " + dadoUtente);
     console.log("Il dado del PC e' " + dadoPC);
     
     // CONTROLLA CHI HA VINTO CON IL NUMERO MAGGIORE
-    if(dadoUtente>dadoPC){
+    if(dadoUtente > dadoPC){
         console.log("l'utente ha vinto!");
     }
-    else if(dadoPC>dadoUtente){
+    else if(dadoPC > dadoUtente){
         console.log("Il pc ha vinto :(");
     }
     else{
