@@ -12,8 +12,8 @@ for(var i=0 ;  i<emailConsentite.length ;  i++){
         isValid=true;
         console.log("email valida");
     }
-    console.log(i);
 }
+
 if(isValid==false){
     console.log("Impossibile accedere, e-mail errata");
 }
